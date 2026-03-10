@@ -12,3 +12,7 @@ export function processEvent(event: string | null): string {
 export function logEvent(event: string) {
   console.log(`Log event: ${event}`);
 }
+
+export function logError(error: string) {
+  console.error(`Error: ${error}`);
+}
